@@ -1,3 +1,3 @@
 # Anik Paul – Portfolio
-Live site: https://YOUR-USERNAME.github.io/REPO-NAME/
+Live site: https://anik paul.github.io/REPO-NAME/
 
