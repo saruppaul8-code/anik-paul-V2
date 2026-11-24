@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anik Paul – Electrical & Electronic Engineer</title>
+<meta name="description" content="Anik Paul – Electrical & Electronic Engineer. HVAC, electrical design and technical sales, Dhaka, Bangladesh.">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f5f4;--panel:#fff;--ink:#0d1f2d;--muted:#52636f;--line:#d9e0e2;--cu:#c2571a;--teal:#0f766e;--chip:#e6efed;--glow:rgba(194,87,26,.22);--shadow:0 18px 40px -18px rgba(13,31,45,.28)}
+@media (prefers-color-scheme:dark){:root{--bg:#0a121a;--panel:#111e27;--ink:#e8eef0;--muted:#9bacb5;--line:#22343e;--cu:#f08a4b;--teal:#4cc2b5;--chip:#173038;--glow:rgba(240,138,75,.22);--shadow:0 18px 40px -18px rgba(0,0,0,.7)}}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{background:var(--bg);color:var(--ink);font:16px/1.7 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Bricolage Grotesque',Inter,sans-serif;line-height:1.15}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--cu);outline-offset:3px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:290px 1fr;gap:64px}
+aside{position:sticky;top:0;align-self:start;padding:48px 0}
+.photo{width:210px;height:250px;border-radius:105px 105px 18px 18px;background:#000;border:3px solid var(--cu);overflow:hidden;box-shadow:0 0 0 8px var(--glow),var(--shadow)}
+.photo img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+aside h1{font-size:32px;margin:28px 0 4px;letter-spacing:-.01em}
+.role{color:var(--teal);font-weight:600}
+nav{margin:28px 0;display:flex;flex-direction:column;gap:2px;border-left:2px solid var(--line)}
+nav a{text-decoration:none;color:var(--muted);padding:5px 16px;margin-left:-2px;border-left:2px solid transparent;transition:.2s}
+nav a:hover,nav a.on{color:var(--ink);border-color:var(--cu);padding-left:20px}
+.contact{font-size:14px;color:var(--muted);display:grid;gap:6px;word-break:break-word}
+.contact a{text-decoration:none}.contact a:hover{color:var(--cu)}
+main{padding:48px 0 80px;min-width:0}
+.hero{position:relative;padding:48px 40px;border-radius:28px;overflow:hidden;border:1px solid var(--line);background:
+ radial-gradient(600px 300px at 90% -10%,var(--glow),transparent 70%),
+ linear-gradient(var(--line) 1px,transparent 1px) 0 0/36px 36px,
+ linear-gradient(90deg,var(--line) 1px,transparent 1px) 0 0/36px 36px,var(--panel)}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,var(--panel) 35%,transparent 100%);opacity:.85;pointer-events:none}
+.hero>*{position:relative;z-index:1}
+.eyebrow{display:inline-block;font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);margin-bottom:14px}
+.hero h2{font-size:clamp(32px,4.6vw,54px);font-weight:800;letter-spacing:-.02em}
+.hero h2 em{font-style:normal;background:linear-gradient(90deg,var(--cu),var(--teal));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{margin-top:20px;font-size:18px;color:var(--muted);max-width:60ch}
+.btns{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+.btn{padding:12px 24px;border-radius:999px;text-decoration:none;font-weight:600;border:2px solid var(--cu);transition:.2s}
+.btn.p{background:var(--cu);color:#fff;box-shadow:0 10px 24px -10px var(--cu)}.btn.p:hover{transform:translateY(-2px)}
+.btn.s{background:transparent}.btn.s:hover{background:var(--cu);color:#fff}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px;margin-top:20px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.stat b{display:block;font-family:'Bricolage Grotesque';font-size:18px;color:var(--teal)}
+.stat span{font-size:14px;color:var(--muted)}
+section{padding:56px 0;border-bottom:1px solid var(--line)}
+section>h2{font-size:30px;margin-bottom:28px;display:flex;align-items:center;gap:14px}
+section>h2::after{content:"";height:2px;flex:1;background:linear-gradient(90deg,var(--line),transparent)}
+.stage{display:grid;grid-template-columns:auto 1fr;gap:48px;align-items:center;padding:40px;border-radius:28px;border:1px solid var(--line);background:radial-gradient(500px 320px at 15% 50%,var(--glow),transparent 70%),var(--panel);box-shadow:var(--shadow)}
+.phone{position:relative;width:min(290px,100%);aspect-ratio:464/832;border-radius:38px;padding:10px;background:linear-gradient(145deg,#1c2a35,#05090d);box-shadow:0 0 0 2px var(--cu),0 30px 60px -20px rgba(0,0,0,.6),0 0 60px var(--glow)}
+.phone video{width:100%;height:100%;object-fit:cover;border-radius:29px;display:block;background:#000}
+.play{position:absolute;inset:10px;border:0;border-radius:29px;background:linear-gradient(180deg,transparent 45%,rgba(0,0,0,.55));cursor:pointer;display:grid;place-items:center;transition:.25s}
+.play i{width:72px;height:72px;border-radius:50%;background:var(--cu);display:grid;place-items:center;box-shadow:0 0 0 10px rgba(255,255,255,.18);transition:.25s}
+.play i::before{content:"";margin-left:5px;border-left:20px solid #fff;border-top:12px solid transparent;border-bottom:12px solid transparent}
+.play:hover i{transform:scale(1.1)}
+.play.off{opacity:0;pointer-events:none}
+.stage h3{font-size:30px;margin:6px 0 14px}
+.stage p{color:var(--muted);max-width:44ch}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.tags span{background:var(--chip);border-radius:999px;padding:5px 14px;font-size:14px;font-weight:500}
+.tl{border-left:2px solid var(--cu);margin-left:6px;display:grid;gap:28px}
+.tl article{position:relative;padding-left:28px}
+.tl article::before{content:"";position:absolute;left:-8px;top:8px;width:14px;height:14px;border-radius:50%;background:var(--bg);border:3px solid var(--cu)}
+.tl h3{font-size:20px}
+.tl .meta{color:var(--teal);font-size:14px;font-weight:600}
+.tl ul{margin:10px 0 0 18px;color:var(--muted)}
+.tl li{margin-bottom:6px}
+.grid,.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:24px;transition:.25s}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:var(--cu)}
+.card h3{font-size:17px;margin-bottom:12px;color:var(--teal)}
+.card p{color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{background:var(--chip);border-radius:8px;padding:4px 10px;font-size:14px}
+.lang{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px dashed var(--line)}
+.lang:last-child{border:0}
+.cta{padding:40px;border-radius:28px;background:linear-gradient(135deg,var(--teal),#0b4f5c);color:#fff}
+.cta h2{font-size:32px;margin-bottom:10px;display:block}
+.cta h2::after{display:none}
+.cta p{opacity:.9;max-width:56ch}
+.cta .btn{border-color:#fff;color:#fff}.cta .btn.p{background:#fff;color:#0b4f5c}.cta .btn.s:hover{background:#fff;color:#0b4f5c}
+footer{padding-top:32px;color:var(--muted);font-size:14px}
+.js .rv{opacity:0;transform:translateY(18px);transition:opacity .7s,transform .7s}
+.js .rv.in{opacity:1;transform:none}
+@media (max-width:900px){
+ .wrap{grid-template-columns:1fr;gap:0}
+ aside{position:static;padding:32px 0 0;display:grid;justify-items:start}
+ nav{flex-direction:row;flex-wrap:wrap;border:0;gap:6px 16px;margin:20px 0}
+ nav a{padding:2px 0;border:0;margin:0;border-bottom:2px solid transparent}
+ nav a:hover,nav a.on{padding-left:0}
+ .hero{padding:32px 22px}
+ .stage{grid-template-columns:1fr;justify-items:center;text-align:center;padding:28px 20px;gap:28px}
+ .tags{justify-content:center}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}.js .rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<aside>
+  <div class="photo"><img src="profile.jpg" alt="Photo of Anik Paul"></div>
+  <h1>Anik Paul</h1>
+  <p class="role">Electrical &amp; Electronic Engineer</p>
+  <nav id="nav">
+    <a href="#about">About</a><a href="#video">Video</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#activities">Activities</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="contact">
+    <span>Dhaka, Bangladesh</span>
+    <a href="tel:+8801743313837">+880 1743313837</a>
+    <a href="mailto:anikpaul869@gmail.com">anikpaul869@gmail.com</a>
+    <a href="https://linkedin.com/in/anik-paul" target="_blank" rel="noopener">linkedin.com/in/anik-paul</a>
+  </div>
+</aside>
+
+<main>
+  <div id="about">
+    <div class="hero">
+      <span class="eyebrow">Open to Sales Engineer &amp; HVAC roles</span>
+      <h2>I turn electrical design and technical know-how into <em>sales that clients trust.</em></h2>
+      <p>I am a B.Sc. graduate in Electrical and Electronic Engineering from American International University-Bangladesh (AIUB). I combine hands-on AutoCAD drafting with HVAC and electrical systems knowledge, and I explain technical solutions clearly to corporate clients.</p>
+      <div class="btns">
+        <a class="btn p" href="mailto:anikpaul869@gmail.com">Email me</a>
+        <a class="btn s" href="#video">Watch my video</a>
+        <a class="btn s" href="#experience">See my experience</a>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>B.Sc. EEE</b><span>AIUB graduate</span></div>
+      <div class="stat"><b>AutoCAD 2D &amp; 3D</b><span>Electrical layout design</span></div>
+      <div class="stat"><b>HVAC &amp; B2B</b><span>Technical sales</span></div>
+    </div>
+  </div>
+
+  <section id="video" class="rv">
+    <h2>Meet me</h2>
+    <div class="stage">
+      <div class="phone">
+        <video id="vid" playsinline preload="metadata" poster="intro-poster.jpg"><source src="intro-video.mp4" type="video/mp4">Your browser cannot play this video.</video>
+        <button class="play" id="play" type="button" aria-label="Play video"><i></i></button>
+      </div>
+      <div>
+        <span class="eyebrow">Video introduction</span>
+        <h3>Hear it straight from me</h3>
+        <p>A short video to introduce myself, my engineering background and the way I work with clients.</p>
+        <div class="tags"><span>Electrical design</span><span>HVAC</span><span>Technical sales</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="rv">
+    <h2>Experience</h2>
+    <div class="tl">
+      <article>
+        <h3>Engineering &amp; Technical Sales Development</h3>
+        <div class="meta">Technical sales · HVAC · Electrical design</div>
+        <ul>
+          <li>Built a solid base in electrical system design, circuit analysis and technical layout drafting using AutoCAD (2D &amp; 3D modeling).</li>
+          <li>Analyzed complex technical specifications and client requirements to produce detailed engineering reports and clear corporate presentations.</li>
+          <li>Gained hands-on experience in market research, client need identification and customized HVAC solutions for corporate clients.</li>
+          <li>Worked under target pressure, made frequent field visits, and supported corporate sales and marketing teams across Bangladesh.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="education" class="rv">
+    <h2>Education</h2>
+    <div class="tl">
+      <article>
+        <h3>B.Sc. in Electrical and Electronic Engineering</h3>
+        <div class="meta">American International University-Bangladesh (AIUB)</div>
+        <ul><li>Coursework: Electrical Circuit Analysis, AutoCAD, Power Systems &amp; Substations, Control Systems, Technical Report Writing, Engineering Laboratories.</li></ul>
+      </article>
+      <article>
+        <h3>Higher Secondary Certificate (HSC)</h3>
+        <div class="meta">Govt. Azizul Haque College, Bogura</div>
+      </article>
+      <article>
+        <h3>Secondary School Certificate (SSC)</h3>
+        <div class="meta">Bogura Zilla School, Bogura</div>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills" class="rv">
+    <h2>Skills</h2>
+    <div class="grid">
+      <div class="card"><h3>Engineering &amp; CAD</h3><div class="chips"><span>AutoCAD 2D</span><span>AutoCAD 3D</span><span>MATLAB</span><span>Circuit simulation tools</span></div></div>
+      <div class="card"><h3>Technical &amp; HVAC</h3><div class="chips"><span>Electrical layout design</span><span>HVAC systems</span><span>Central air conditioning</span><span>Specification analysis</span></div></div>
+      <div class="card"><h3>Sales &amp; Business</h3><div class="chips"><span>B2B technical sales</span><span>Client need analysis</span><span>Negotiation</span><span>Lead generation</span><span>Relationship management</span></div></div>
+      <div class="card"><h3>Reporting &amp; IT</h3><div class="chips"><span>MS Word</span><span>Excel</span><span>PowerPoint</span><span>Sales reporting</span><span>Technical report writing</span></div></div>
+      <div class="card"><h3>Professional strengths</h3><div class="chips"><span>Corporate presentations</span><span>Market research</span><span>Target-driven</span><span>Field visits</span></div></div>
+    </div>
+  </section>
+
+  <section id="activities" class="rv">
+    <h2>Activities &amp; Languages</h2>
+    <div class="two">
+      <div class="card"><h3>Tabla accompanist</h3><p>Skilled tabla player with experience in classical and contemporary rhythm patterns, including accompanying live musical performances.</p></div>
+      <div class="card"><h3>Team leadership &amp; events</h3><p>Active in organizing cultural programs, music performances and academic events. This built my teamwork, discipline and creative thinking.</p></div>
+      <div class="card"><h3>Languages</h3>
+        <div class="lang"><span>Bangla</span><span>Native</span></div>
+        <div class="lang"><span>English</span><span>Fluent (professional &amp; technical)</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="rv" style="border:0">
+    <div class="cta">
+      <h2>Let's talk</h2>
+      <p>I'm open to Sales Engineer, HVAC and electrical engineering roles in Bangladesh. The fastest way to reach me is email.</p>
+      <div class="btns">
+        <a class="btn p" href="mailto:anikpaul869@gmail.com">anikpaul869@gmail.com</a>
+        <a class="btn s" href="tel:+8801743313837">Call +880 1743313837</a>
+        <a class="btn s" href="https://linkedin.com/in/anik-paul" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+  <footer>© <span id="yr"></span> Anik Paul · Dhaka, Bangladesh</footer>
+</main>
+</div>
+
+<script>
+document.documentElement.classList.add('js');
+document.getElementById('yr').textContent=new Date().getFullYear();
+const v=document.getElementById('vid'),p=document.getElementById('play');
+p.addEventListener('click',()=>{v.controls=true;v.play();p.classList.add('off')});
+v.addEventListener('pause',()=>{if(v.ended)p.classList.remove('off')});
+const links=[...document.querySelectorAll('#nav a')];
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(l=>l.classList.toggle('on',l.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-40% 0px -55% 0px'});
+document.querySelectorAll('main [id]').forEach(s=>io.observe(s));
+const rv=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');rv.unobserve(e.target)}}),{threshold:.08});
+document.querySelectorAll('.rv').forEach(s=>rv.observe(s));
+</script>
+</body>
+</html>
